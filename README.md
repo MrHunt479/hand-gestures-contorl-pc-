@@ -1,6 +1,8 @@
 # hand-gestures-contorl-pc-
 A software-only solution to control your PC mouse using hand gestures via a webcam. Built with Python, OpenCV, and MediaPipe.
-Features (Version 2)
+
+Features 
+
 Multi-Mode Interaction:
 MOVE MODE: Standard cursor control.
 SCROLL MODE: Intuitive hand-movement scrolling.
@@ -30,6 +32,7 @@ Invoke-WebRequest -Uri https://storage.googleapis.com/mediapipe-models/hand_land
 Run the System:
 
 python main.py
+
 ✋ Gesture Guide (Detailed Patterns)
 1. MOVE CURSOR
 Pattern: Raise Index Finger ONLY. Keep other fingers curled.
