@@ -5,31 +5,55 @@ Features
 
 Multi-Mode Interaction:
 MOVE MODE: Standard cursor control.
+
 SCROLL MODE: Intuitive hand-movement scrolling.
+
 PAUSED MODE: Safety state.
+
 Expanded Gestures:
+
 Right Click: Thumb + Middle Pinch.
+
 Left Click: Thumb + Index Pinch.
+
 Advanced Safety:
+
 Global Kill Switch ('Q').
+
 Auto-Pause: Activates on hand loss or low FPS.
+
 Cooldowns: Prevents accidental double-clicks.
+
 Visual Dashboard:
+
 Real-time Mode, FPS, and Gesture display.
+
 Prerequisites
+
 Python 3.8+
+
 Webcam
+
 MediaPipe Model (hand_landmarker.task)
+
 Setup Instructions
+
 Clone/Download this repository.
 
 Install Dependencies:
 
 pip install -r requirements.txt
-Download Model: The system requires the hand_landmarker.task model file. Download Link or use:
 
-Invoke-WebRequest -Uri https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task -OutFile hand_landmarker.task
+Download Model: The system requires the hand_landmarker.task model file. 
+
+Download Link or use:
+
+Invoke-WebRequest -Uri https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task 
+
+-OutFile hand_landmarker.task
+
 Run the System:
+
 
 python main.py
 
